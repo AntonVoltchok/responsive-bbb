@@ -288,6 +288,17 @@ body {
 
 @media screen and (max-width: 720px) {
 
+
+
+
+
+    .bg-carousel-bad-ex {
+        background-size: auto 100%;
+        background-position: right;
+        height: 78px;
+    }
+
+
     .bg-hero-short:hover {
         background: yellow;
         transition: .12s all ease-in;
