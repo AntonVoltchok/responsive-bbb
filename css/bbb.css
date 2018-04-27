@@ -289,15 +289,11 @@ body {
 @media screen and (max-width: 720px) {
 
 
-
-
-
     .bg-carousel-bad-ex {
         background-size: auto 100%;
         background-position: right;
         height: 78px;
     }
-
 
     .bg-hero-short:hover {
         background: yellow;
@@ -314,6 +310,9 @@ body {
     .logo-responsive {
         max-width: 100px;
     }
+
+
+
 
     .wrap-banner {
         flex-direction: column-reverse;
