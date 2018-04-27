@@ -225,9 +225,13 @@ body {
     position: absolute;
     z-index: 2;
     height: 100%;
-    min-width: 475px;
+    min-width: 435px;
 }
 
+
+.full-content {
+    display: none;
+}
 
 /* ================== */
 /*  960 - BREAKPOINT  */
@@ -269,9 +273,7 @@ body {
     }
 }
 
-.full-content {
-    display: none;
-}
+
 
 
 
@@ -300,6 +302,14 @@ body {
     .wrap-banner {
         flex-direction: column-reverse;
     }
+
+    .panel-carousel-bad-ver  {
+        position: relative;
+        z-index: 2;
+        height: 100%;
+        min-width: 320px;
+    }
+
 
     .aspect-holder {
         max-width: 100%;
