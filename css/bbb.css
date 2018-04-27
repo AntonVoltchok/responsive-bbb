@@ -17,8 +17,9 @@ body {
     padding-top: calc(255 / 502 * 100%);
 }
 
+/* @TODO make this ratio the same thing as the hero ratio*/
 .carousel-bad-ex-ratio {
-    padding-top: calc(430 / 1280 * 100%);
+    padding-top: calc(440 / 1280 * 100%);
 }
 
 .full-center-ratio {
@@ -63,6 +64,12 @@ body {
     background: url(https://antonvoltchok.github.io/responsive-bbb/img/bg-bake-calphalon.png) no-repeat center;;
     background-size: contain;
 }
+
+.bg-full-mobile {
+    background: url(https://antonvoltchok.github.io/responsive-bbb/img/full-mobile-320.png) no-repeat center;;
+    background-size: contain;
+}
+
 
 /* ========= */
 /*  BUTTONS  */
@@ -312,8 +319,6 @@ body {
     }
 
 
-
-
     .wrap-banner {
         flex-direction: column-reverse;
     }
@@ -322,7 +327,7 @@ body {
         position: relative;
         z-index: 2;
         height: 100%;
-        min-width: 320px;
+        min-width: 100%;
     }
 
 
@@ -352,7 +357,7 @@ body {
     }
 
     .wrapper {
-        max-width: 320px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
