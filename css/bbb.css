@@ -239,6 +239,11 @@ body {
 
 @media screen and (max-width: 960px) {
 
+    .panel-carousel-bad-ver {
+        min-width: 330px;
+        max-width: 330px;
+    }
+
     .logo-responsive {
         max-width: 125px;
     }
